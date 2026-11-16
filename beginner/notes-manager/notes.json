@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Learn Python",
+        "content": "Practice functions, exception handling, and file management."
+    },
+    {
+        "title": "NumPy Learning",
+        "content": "Learn arrays, indexing, slicing, and mathematical operations."
+    },
+    {
+        "title": "GitHub Portfolio",
+        "content": "Publish Python projects and write clear README files."
+    },
+    {
+        "title": "English Practice",
+        "content": "Read technical articles and learn new programming vocabulary."
+    },
+    {
+        "title": "Machine Learning",
+        "content": "Study supervised learning, regression, and classification."
+    }
+]

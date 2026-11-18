@@ -13,13 +13,13 @@ The project also includes a sample log file (`server.log`) containing valid and 
 ## Features
 
 - **Log Parsing:** Reads log files line by line and extracts timestamps, log levels, and messages.
-- **Input Validation:** Validates timestamps, log levels (`INFO`, `WARNING`, `ERROR`), and log messages.
+- **Input Validation:** Validates timestamps, supported log levels (`INFO`, `WARNING`, `ERROR`), and log messages.
 - **Entry Statistics:** Counts total, valid, and invalid log entries.
 - **Log Level Analysis:** Calculates the number of entries for each log level.
 - **Error Analysis:** Identifies frequently occurring error messages and ranks them by frequency.
 - **Level-Based Filtering:** Filters log entries by their severity level.
 - **Time-Based Filtering:** Filters logs within a user-defined date and time range.
-- **Report Generation:** Displays analysis results in the terminal and saves them to `report.txt`.
+- **Report Generation:** Displays analysis results in the terminal and saves them to a text report.
 - **File Handling:** Handles missing input files by prompting the user to provide another file path.
 
 ## Project Structure
@@ -64,10 +64,7 @@ Entries with invalid timestamps, unsupported log levels, or empty messages are c
 - Python 3.8 or higher
 - No external libraries required.
 
-The project uses Python's built-in modules:
-
-- `datetime`: For parsing and comparing timestamps.
-- `os`: For displaying the absolute path of the input file.
+The project uses Python's built-in `datetime` module for parsing and comparing timestamps.
 
 ## How to Run
 
@@ -80,7 +77,7 @@ git clone https://github.com/Narges-daneshi/mini_python_projects.git
 2. Navigate to the project directory:
 
 ```bash
-cd mini_python_projects/intermediate/log-analyzer
+cd mini_python_projects/beginner/log-analyzer
 ```
 
 3. Run the application:
@@ -112,11 +109,10 @@ The application displays the analysis results in the terminal and generates a `r
 - Exception handling (`try`, `except`)
 - Input validation
 - Working with the `datetime` module
-- Dictionaries and dictionary methods (`get()`)
-- Lists and list comprehensions
+- Lists and dictionaries
+- Dictionary methods (`get()`)
 - Sorting with custom keys (`sorted()` and `lambda`)
 - Iteration and conditional statements
-- Working with the operating system using the `os` module
 - Writing structured reports to text files
 - Modular programming and function design
 
@@ -137,4 +133,3 @@ Possible extensions for this project include:
 - Adding command-line arguments for file paths and filtering options.
 - Supporting multiple log files.
 - Generating reports in CSV or JSON format.
-
